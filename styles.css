@@ -20,4 +20,25 @@ body {
 #result-display {
     text-align: end;
     color: white;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.buttons{
+    padding: 20px;
+    border-radius: 10px;
+    background-color:grey;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+#cal-button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#cal-button button:hover {
+    transform: scale(1.1);
 }
