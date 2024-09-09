@@ -37,8 +37,37 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    margin-bottom: 10px;
 }
 
 #cal-button button:hover {
+    transform: scale(1.1);
+}
+
+
+
+.foot-buttons{
+
+    width: 22%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:grey;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.foot-buttons-zero {
+    padding: 20px;
+    border-radius: 10px;
+    background-color:grey;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    width: 50%;
+    margin-right: 10px;
+}
+
+#last-btns button:hover {
     transform: scale(1.1);
 }
