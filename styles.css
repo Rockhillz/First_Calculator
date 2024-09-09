@@ -1,1 +1,23 @@
 /* Styling of body  */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+
+#calculator-body {
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+}
+
+#result-display {
+    text-align: end;
+    color: white;
+}
