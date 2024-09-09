@@ -7,7 +7,7 @@ body {
     height: 100vh;
     background-color: #f4f4f4;
     margin: 0;
-  }
+}
 
 #calculator-body {
     width: 350px;
@@ -24,6 +24,7 @@ body {
     margin-bottom: 5px;
     padding: 10px;
 }
+
 .buttons{
     padding: 20px;
     border-radius: 10px;
@@ -70,4 +71,16 @@ body {
 
 #last-btns button:hover {
     transform: scale(1.1);
+} 
+
+.btn-color-yellow {
+    background-color: #FF9F0A;
+}
+
+.btn-color-ash {
+    background-color: #A5A5A5;
+}
+
+.btn-color-black {
+    background-color: #333333;
 }
